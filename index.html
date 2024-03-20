@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de vida</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <fieldset>
+    <header>
+      <h1>Hoja de vida</h1>
+      <table border="1">
+        <tr>
+          <td style="background-color: cornsilk;"><img width="150" src="/image/person-1824144_640.png" alt="foto">
+          </td>
+        </tr>
+      </table>
+      <nav></nav>
+    </header>
+    <section>
+      <hr>
+      <article name="datos_personales">
+        <fieldset>
+          <legend>
+            <h3>Datos personales</h2>
+          </legend>
+          <table border="2" cellpadding="3">
+            <tr>
+              <td>Nombre: Sebastian Serna Arango</td>
+              <td>Telegono: 3108299496</td>
+            </tr>
+            <tr>
+              <td>C.C: 1036403515</td>
+              <td>Correo: sebastian.serna.1998@gmail.com</td>
+            </tr>
+          </table>
+        </fieldset>
+      </article>
+      <hr>
+      <article>
+        <fieldset>
+          <legend>
+            <h3>Sobre mi </h3>
+          </legend>
+          <p> Profesional proactivo y responsable, con sólidos
+            conocimientos en asistencia al cliente. Excelentes
+            habilidades de comunicación, trabajo en equipo y
+            resolución de problemas.<br> Capacidad para trabajar
+            bajo presión y cumplir con los plazos establecidos.<br>Compromiso
+            con la mejora continua y el aprendizaje permanente.
+            Experiencia comprobada en factory s.a.s, media
+            narajan y pull ando bear. <br>Motivado por los
+            nuevos desafíos y el crecimiento profesional.
+            Buscando aplicar mis habilidades y conocimientos en
+            una empresa de vanguardia.</p>
+        </fieldset>
+      </article>
+      <hr>
+      <fieldset>
+        <legend>
+          <h3>Estudios</h3>
+        </legend>
+        <article name="Estudios">
+          <ul>
+            <li><strong>Tecnologia en asistencia administrativa</strong> - SENA</li>
+            <li><strong>Ingenieria en telecomunicaciones</strong> -
+              cursando - Instituto Tecnologico
+              Metropolitano - ITM</li>
+          </ul>
+        </article>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>
+          <h3>Cursos realizados</h3>
+        </legend>
+        <article name="Curos_realizados">
+          <ul>
+            <li>Desarrollo en vide juegos - <strong>ruta N</strong></li>
+            <li>Desarrollo de software - <strong>riwi</strong></li>
+          </ul>
+        </article>
+      </fieldset>
+      <hr>
+      <article name="Experiencia_laboral">
+        <h3>Experiencia laboral</h3>
+        <table border="2" cellpandding="4">
+          <tr>
+            <td>Empresa</td>
+            <td>Cargo</td>
+            <td>Resposabilidades</td>
+            <td>Tiempo</td>
+          </tr>
+          <tr>
+            <td>Factory s.a.s</td>
+            <td>
+              <p>Auxiliar de filtros</p>
+            </td>
+            <td>
+              <p>Ayudar a fabricar filtros
+                de calidad, implemetar<br>
+                todas las medidas
+                de seguridad para su correctos usos<br>
+                ayduar a transportar estos
+                elementos a bodega y
+                saber todas las normas de
+                cada uno de los filtros de aire</p>
+            </td>
+            <td>05/01/2019 hasta 15/08/2019</td>
+          </tr>
+          <tr>
+            <td>La media naranja</td>
+            <td>
+              <p>Auxiliar de bodega</p>
+            </td>
+            <td>
+              <p>Organizar mercancia de acuerdo de su hora<br> de
+                llegada, por sus tallas, tipo y precio,
+                surtir los mostradores <br>o buscar algun item
+                solocitado por los asistentes de ventas
+            </td>
+            <td>01/12/2022 hasta 31/12/2022</p>
+            </td>
+          </tr>
+          <tr>
+            <td>Pull And Bear</td>
+            <td>
+              <p>Asistente de ventas</p>
+            </td>
+            <td>
+              <p>Asesorar compradores, saber ubicar y saber <br>donde
+                va ubicado cada prenda buscar u
+                organizar bodega saber atender en probadores
+            </td>
+            <td>01/12/2023 hasta 31/12/2023</p>
+            </td>
+          </tr>
+        </table>
+      </article>
+      <hr>
+      <article>
+        <h3>Redes de contacto</h3>
+        <a target="_blank" href="https://www.linkedin.com/in/sebastian-undefined-1624832ba/"><img width="50"
+            src="/image/linkedin.png" alt></a>
+        <a target="_blank" href="https://www.instagram.com/sebas_blister/"><img width="50" src="/image/instagram.png" alt="Instagram"></a>
+      </article>
+      <hr>
+    </section>
+    <footer>
+      <fieldset>
+        <legend>
+          <h2>Formulario para contactar</h2>
+        </legend>
+        <form action="/datos" method="post" name="contacto" target="_blank" accept-charset="UTF-8" autocomplete="off">
+          <fieldset>
+            <legend>Datos contacto</legend>
+            <label for="nobre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre...">
+            <br><br>
+            <label for="apellido">Apellidos</label>
+            <input type="text" name="apellido" id="apellido" required placeholder="Ingrese sus apellidos...">
+            <label for="cedular">Cedula:</label>
+            <input type="text" name="cedula" id="cedula" required placeholder="Ingrese su cedula sin puntos.">
+            <br><br>
+            <label for="celular">Celular:</label>
+            <input type="text" name="celular" id="celular" required placeholder="Ingrese su numero telefonico">
+            <label for="correo">Correo</label>
+            <input type="email" name="corre" id="correo" placeholder="Ingrese su correo...">
+            <br><br>
+            <label for="cargo">Cargo</label>
+            <input type="text" name="cargo" id="cargo" placeholder="Ingrese su cargo si cumple.">
+            <br><br>
+            <input type="submit" value="Enviar">
+            <button type="reset">Limpiar</button>
+          </fieldset>
+        </form>
+    </footer>
+  </fieldset>
+
+</body>
+
+</html>
